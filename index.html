@@ -6,16 +6,29 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container">
+    <div class="nav container">
         <div class="row">
             <div class="col-md-8">
                 <ul>
-                    <li>My Wishlist(0)</li>
-                    <li>My Account</li>
-                    <li>Shopping Cart</li>
-                    <li>Checkout</li>
+                    <li class="colorchange">
+                        <a herf="#">My Wishlist(0)</a>
+                        <i class="far fa-edit"></i>
+                    </li>    
+                    <li>
+                        <a herf="#">My Account</a>
+                        <i class="fas fa-user"></i>
+                    </li>    
+                    <li>
+                        <a href="#">Shopping Cart</a>
+                        <i class="fas fa-shopping-cart"></i>
+                    </li>    
+                    <li>
+                        <a href="#">Checkout</a>
+                        <i class="fas fa-check"></i>
+                    </li>    
                 </ul>
             </div>    
             <div class="col-md-4">
@@ -24,31 +37,41 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-                <a href="#"><img src="venedor.jpg"></a>
-            </div>
-            <div class="col-md-4">
-                <ul>
-                    <li><a href="#" class="button">US Dollar</a></li>
-                    <li><a href="#" class="button">English</a></li>
-                    <li><a href="#" class="button">0 Items -$0.00</a></li>
-                </ul>
+    
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <a href="#"><img src="venedor.jpg"></a>
+                    </div>
+    <div class="tippy">                
+                <div class="col-sm-4">
+                    <ul>
+                        <li>
+                            <a href="#" class="button">US Dollar</a>
+                        </li>
+                        <li>
+                            <a href="#" class="button">English</a>
+                        </li>
+                        <li>
+                            <a href="#" class="button2">0 Items -$0.00</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
     
-    <div class="container">
+    
+    <div class="search container">
         <div class="row">
             <div class="col-md-8">
                 <ul>
-                    <li>FASHION</li>
-                    <li>ELECTRONICS</li>
-                    <li>GIFTS</li>
-                    <li>BOOKS</li>
-                    <li>AT HOME</li>
-                    <li>MUSIC</li>
+                    <li><a href="#">FASHION</a></li>
+                    <li><a href="#">ELECTRONICS</a></li>
+                    <li><a href="#">GIFTS</a></li>
+                    <li><a href="#">BOOKS</a></li>
+                    <li><a href="#">AT HOME</a></li>
+                    <li><a href="#">MUSIC</a></li>
                 </ul>
             </div>    
             <div class="col-md-4">
@@ -62,7 +85,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-sm-12">
                 <a href="#"><img src="bigpicture.jpg"></a>
             </div>
         </div>
@@ -82,38 +105,51 @@
     </div>
 
 <hr>
-    <h1>Latest</h1>
-    <div class="container-fluid">
-        <div class="row">
+    <div class="container">
+            <div class="row">
+                <div class="col-sm-10">
+                    <h1>Latest</h1>
+                    <p>Buy Discount items from the latest collections of world brands.</p>
+                </div>
+
+                <div class="arrow col-sm-2">
+                    <a>&lt;</a> <a>&gt;</a>
+                </div>
+            </div>
+    </div>
+
+    <div class="item container">
+        <div class="row">  
             <div class="col-md-3">
                 <ul>
                 <li><a href="#"><img src="bracelet.jpg"></a>
                 <h5>Jewelry Bracelet Cara </h5>
-                <a href="#" class="ADD TO CART">ADD TO CART</a></li>
+                <a href="#" class="button1">ADD TO CART</a></li>
             </div>
             <div class="col-md-3">
                 <li><a href="#"><img src="jacket.jpg"></a>
                 <h5>Jessica London Short</h5>
-                <a href="#" class="ADD TO CART">ADD TO CART</a></li>
+                <a href="#" class="button1">ADD TO CART</a></li>
             </div>
             <div class="col-md-3">
                 <li> <a href="#"><img src="gloves.jpg"></a>
                 <h5>Mocca Stretch Leather </h5>
-                <a href="#" class="ADD TO CART">ADD TO CART</a></li>
+                <a href="#" class="button1">ADD TO CART</a></li>
             </div>
             <div class="col-md-3">
                 <li> <a href="#"><img src="sweater.jpg"></a>
                 <h5>Limited Edition Knitted </h5>
-                <a href="#" class="ADD TO CART">ADD TO CART</a></li>
+                <a href="#" class="button1">ADD TO CART</a></li>
                 </ul>
             </div>
         </div>
     </div>
 
-    <h1>Welcome to Venedor</h1>
+    
     <div class="container">
-        <div class="row">
+        <div class="row"> 
             <div class="col-md-6">
+                <h1>Welcome to Venedor</h1>
                 <p>Venedor is a fully responsive PSD theme designed for all types of platforms:
                 WooCommerce, Magento, OpenCart, PrestaShop and other. Based on BootStrap's 12
                 column 1200px responsive grid Template. Great looks on desktops, tablets and
@@ -130,127 +166,182 @@
         </div>
     </div>
 
-    <h1>Bestsellers</h1>
-    <div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Bestsellers</h2>
+                <p>Special offers and biggest discounts for the most popular products.</p>
+            </div>
+            <div class="arrow col-sm-2">
+                <a>&lt;</a> <a>&gt;</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="item container">
         <div class="row">
             <div class="col-md-3">
                 <ul>
                 <li> <a href="#"><img src="shoes.jpg"></a>
                 <h5>Jewelry Bracelet Cara</h5>
-                <a href="#"class="ADD TO CART">ADD TO CART</a></li>
+                <a href="#"class="button1">ADD TO CART</a></li>
             </div>
             <div class="col-md-3">
                 <li> <a href="#"><img src="purse.jpg"></a>
                 <h5>Jessica London Short</h5>
-                <a href="#" class="ADD TO CART">ADD TO CART</a></li>
+                <a href="#" class="button1">ADD TO CART</a></li>
             </div>
             <div class="col-md-3">
                 <li> <a href="#"><img src="doubleshoe.jpg"></a>
                 <h5>Mocca Stretch Leather</h5>
-                <a href="#" class="ADD TO CART">ADD TO CART</a></li>
+                <a href="#" class="button1">ADD TO CART</a></li>
             </div>
             <div class="col-md-3">
                 <li> <a href="#"><img src="lightjacket.jpg"></a>
                 <h5>Limited Edition Knitted</h5>
-                <a href="#" class="ADD TO CART">ADD TO CART</a></li>
+                <a href="#" class="button1">ADD TO CART</a></li>
                 </ul>
             </div>
         </div>
     </div>
 
-    
-        <div class="container">
-            <div class="row"><h1>Manufacturers</h1> 
-                <div class="col-sm-2">
-                   <a href="#"><img src="brandlogo.jpg"></a>
-                </div>
-                <div class="col-sm-2">
-                    <a href="#"><img src="brandlogo.jpg"></a>
-                </div>
-                <div class="col-sm-2">
-                    <a href="#"><img src="brandlogo.jpg"></a>
-                </div>
-                <div class="col-sm-2">
-                    <a href="#"><img src="brandlogo.jpg"></a>
-                </div>
-                <div class="col-sm-2">
-                    <a href="#"><img src="brandlogo.jpg"></a>
-                </div>
-                <div class="col-sm-2">
-                    <a href="#"><img src="brandlogo.jpg"></a>
-                </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Bestsellers</h2>
+                <p>Special offers and biggest discounts for the most popular products.</p>
+            </div>        
+            <div class="arrow col-sm-6">
+                <a>&lt;</a> <a>&gt;</a>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2">
+               <a href="#"><img src="brandlogo.jpg"></a>
+            </div>
+            <div class="col-sm-2">
+                <a href="#"><img src="brandlogo.jpg"></a>
+            </div>
+            <div class="col-sm-2">
+                <a href="#"><img src="brandlogo.jpg"></a>
+            </div>
+            <div class="col-sm-2">
+                <a href="#"><img src="brandlogo.jpg"></a>
+            </div>
+            <div class="col-sm-2">
+                <a href="#"><img src="brandlogo.jpg"></a>
+            </div>
+            <div class="col-sm-2">
+                <a href="#"><img src="brandlogo.jpg"></a>
             </div>
         </div>
+    </div>
 
 
+    <div class="sign-in">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <h5>SIGN UP TO RECEIVE THE LATEST FASHION NEWS</h5>
+                    <p>SIGN UP TO RECEIVE THE LATEST FASHION NEWS</p>
                 </div>
                 <div class="col-sm-6">
-                    <form>
-                        <input type="text" placeholder="enter your email address">
-                        <input type="submit" value="Submit">
+                    <form action="">
+                        <input type="text" placeholder="Enter your email address">
+                            <a href="#"> Sign Up</a>
                     </form>
                 </div>
             </div>
         </div>
+    </div>
 
 
-    
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-3"><h5>MY ACCOUNT</h5>
-                
-                <ul>
-                    <li><a href="#" class="button">My account</a></li>
-                    <li><a href="#" class="button">Personal information</a></li>
-                    <li><a href="#" class="button">Address</a></li>
-                    <li><a href="#" class="button">Discount</a></li>
-                    <li><a href="#" class="button">Oiders history</a></li>
-                    <li><a href="#" class="button">Your Vouchers</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <h5>INFORMATION</h5>
-                <ul>
-                    <li><a href="#" class="button">New product</a></li>
-                    <li><a href="#" class="button">Top sellers</a></li>
-                    <li><a href="#" class="button">Specials</a></li>
-                    <li><a href="#" class="button">Manufacturers</a></li>
-                    <li><a href="#" class="button">Suppliers</a></li>
-                    <li><a href="#" class="button">Our stores</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                    <h5>FROM TWITTER</h5>
-                    <p>Donec et tortor orci. Vestibulum ante
-                        ipsum primis in faucibus orci luctus
-                        et ultrices posuere cubilia curae
-                        <a href="https://placeholder.com" class="button">http://t.co/MqacjST476></a>
-                    </p>
-                    <p>
-                        Aliquam aliquam fermentum arcu. Sed
-                        et megna dolor, eu fermentum enum.
-                        Aliquam <a href="https://placeholder.com" class="button">http://t.co/CCkfps248sq</a>
-                        consectetur ligula
-                    </p>
-            </div>
-            <div class="col-sm-3">
-                    <h5>FACEBOOK</h5>
+    <div class="social-media">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h5>MY ACCOUNT</h5>
                     <ul>
-                        <li><a href="https://placeholder.com"><img src="https://via.placeholder.com/50x50"></a></li>
-                        <li><a href="https://placeholder.com"><img src="https://via.placeholder.com/50x50"></a></li>
-                        <li><a href="https://placeholder.com"><img src="https://via.placeholder.com/50x50"></a></li>
-                        <li><a href="https://placeholder.com"><img src="https://via.placeholder.com/50x50"></a></li>
-                        <li><a href="https://placeholder.com"><img src="https://via.placeholder.com/50x50"></a></li>
-                        <li><a href="https://placeholder.com"><img src="https://via.placeholder.com/50x50"></a></li>
+                        <li><a href="#" >My account</a></li>
+                        <li><a href="#" >Personal information</a></li>
+                        <li><a href="#" >Address</a></li>
+                        <li><a href="#" >Discount</a></li>
+                        <li><a href="#" >Oiders history</a></li>
+                        <li><a href="#" >Your Vouchers</a></li>
                     </ul>
+                </div>
+                
+                <div class="col-sm-3">
+                    <h5>INFORMATION</h5>
+                    <ul>
+                        <li><a href="#" >New product</a></li>
+                        <li><a href="#" >Top sellers</a></li>
+                        <li><a href="#" >Specials</a></li>
+                        <li><a href="#" >Manufacturers</a></li>
+                        <li><a href="#" >Suppliers</a></li>
+                        <li><a href="#" >Our stores</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                        <h5>FROM TWITTER</h5>
+                        <p>Donec et tortor orci. Vestibulum ante
+                            ipsum primis in faucibus orci luctus
+                            et ultrices posuere cubilia curae
+                            <a href="https://placeholder.com" >http://t.co/MqacjST476></a>
+                        </p>
+                        <p>
+                            Aliquam aliquam fermentum arcu. Sed
+                            et megna dolor, eu fermentum enum.
+                            Aliquam <a href="https://placeholder.com" >http://t.co/CCkfps248sq</a>
+                            consectetur ligula
+                        </p>
+                </div>
+                <div class="facebook col-sm-3">
+                    <h5>FACEBOOK</h5>
+                    <p><a class="like" href="#"><i class="far
+                    far-thumbs-up"></i> Like!</a></p>
+                    <p>1452 people like <a class="promo"
+                    href="#">Pronokit</a></p>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img src="" alt="#">
+                            <p>Anna</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="" alt="#">
+                            <p>Tom</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="" alt="#">
+                            <p>Antuan</p>
+                        </div>
+                        <div class="row1">
+                        <div class="col-sm-4">
+                            <img src="" alt="#">
+                            <p>Milla</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="" alt="#">
+                            <p>Justine</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="" alt="#">
+                            <p>Maria</p>
+                        </div>
+                    </div>
+
+                   
+                </div>
             </div>
         </div>
     </div>
-
 
 
 </body>

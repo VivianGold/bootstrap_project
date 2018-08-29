@@ -1,0 +1,112 @@
+
+.nav {
+    background-color: #f5f5f5;
+    padding: 0px 0px;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nav ul{
+    color: #8a8a8a;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+}
+
+.nav li{
+    display: inline;
+    color: black;
+}
+
+.tippy ul{
+    text-decoration: none;
+    padding: 30px 15px;
+    border-radius: 10px;
+}
+
+.tippy li {
+    display: inline;
+}
+.button {
+    background-color: #f5f5f5;
+    color: black;
+    padding: 6px 16px;
+
+}
+
+
+.search{
+    margin-top: 25px;
+}
+
+.search a{
+    padding: 10px 15px;
+    color:grey;
+}
+
+.search li{
+    display: inline;
+    text-align: right;
+    text-decoration: none;
+}
+
+.search a:hover {
+    color: #14c0c9;
+    text-decoration: none;
+
+}
+
+.arrow  {
+    float:right;
+    color: #14c0c9;
+}
+
+.item{
+    list-style: none;
+}
+
+.button1{
+    background-color: #444d4b;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+}
+
+.sign-in{
+    background-color:#d4d4d4;
+    padding:15px 15px;
+    text-align: center;
+    color:black;
+    font-size: 22px;
+}
+
+
+.social-media{
+    background-color: #424a4a;
+}
+
+.social-media{
+    color: white;
+}
+
+.social-media a{
+    color: white;
+    text-decoration: none;
+}
+
+.social-media a:hover{
+    color: #00bcf9;
+    text-decoration: none;
+}
+
+.button2{
+    padding: 5px;
+    text-decoration: none;
+    background-color: #00bcf9;
+    color: white;
+}
+
